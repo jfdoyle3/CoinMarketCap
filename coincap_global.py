@@ -1,7 +1,6 @@
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
-from datetime import datetime
 
 currency='JPY'
 url = 'https://pro-api.coinmarketcap.com/v1/global-metrics/quotes/latest?convert='+currency
